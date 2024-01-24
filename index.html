@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Indian Tourism</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f0db4f;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Indian Tourism</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Taj Mahal, Agra</h2>
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*0aDfP2pXWX2e_7CynvRJHg.jpeg" alt="Taj Mahal">
+            <p><h3>Visit the iconic Taj Mahal, a symbol of eternal love and one of the Seven Wonders of the World.</h3></p>
+        </section>
+
+        <section>
+            <h2>Jaipur, Rajasthan</h2>
+            <img src="https://www.abhibus.com/blog/wp-content/uploads/2023/06/Top-10-Places-to-Visit-in-Jaipur-How-to-Reach-Best-Time-Tourist-Attractions.jpg" alt="Jaipur">
+            <p><h3>Experience the royal heritage of Jaipur, known for its vibrant culture, majestic forts, and palaces.</h3></p>
+        </section>
+
+        <section>
+            <h2>Goa Beaches</h2>
+            <img src="https://static.toiimg.com/thumb/msid-55310626,width-748,height-499,resizemode=4,imgsize-175052/.jpg" alt="Goa Beach">
+            <p><h3>Relax on the pristine beaches of Goa, famous for its sunsets, water sports, and lively nightlife.</h3></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Indian Tourism. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Indian Tourism</title>
+    <style>
+        /* Your existing styles here */
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <!-- Your existing content here -->
+
+    <main>
+        <!-- Your existing sections here -->
+
+        <section>
+            <h2>Book a Tourism Ticket</h2>
+            <form action="booking_process.php" method="post">
+                <label for="destination">Select Destination:</label>
+                <select id="destination" name="destination" required>
+                    <option value="taj_mahal">Taj Mahal, Agra</option>
+                    <option value="jaipur">Jaipur, Rajasthan</option>
+                    <option value="goa_beach">Goa Beaches</option>
+                    <!-- Add more options for different destinations -->
+
+                </select>
+
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Your existing footer here -->
+</body>
+</html>
